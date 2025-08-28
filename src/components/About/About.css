@@ -58,8 +58,11 @@ text-decoration: underline;
 padding: 50px 20px 0;
 
   }
+   .about-text {
+    flex-direction: column;
+   }
   .about-text .line{
-  width: 50%;
+  flex-grow: 1;
 
 }
 .about-list{
@@ -68,7 +71,9 @@ padding: 50px 20px 0;
   padding: 50px 50px;
 
 }
-
+.about-text p{
+  padding-top: 20px;
+}
 }
 @media (max-width:576px){
 

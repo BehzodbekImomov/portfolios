@@ -67,17 +67,20 @@
 }
 @media (max-width: 992px) {
   .work {
-    padding: 100px 50px 0;
+    padding: 50px 50px 0;
   }
 
   .work-container {
     padding: 50px 20px 0;
   }
   .work-text {
-    gap: 5px;
+   flex-direction: column;
   }
   .work-text .line {
-    width: 50%;
+   flex-grow: 1;
+  }
+  .work-text p{
+    padding-top: 20px;
   }
   .work-list {
     display: flex;
