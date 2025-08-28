@@ -1,0 +1,31 @@
+.footer{
+  padding: 110px 55px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-Links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+}
+
+@media(max-width:992px){
+  .footer{
+  padding: 110px 55px 40px;
+
+  display: flex;
+  flex-direction: column;
+ gap: 30px;
+}
+.footer-Links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+}
+}
